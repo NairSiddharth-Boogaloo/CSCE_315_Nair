@@ -48,7 +48,7 @@ span{
     justify-content: center;
     text-align: center;
     padding: 30px;
-    background-color: #5B6236;
+    background-color: #003C71;
     line-height: 100px;
     font-family: "Copperplate", "Times New Roman", serif;
 }
@@ -66,7 +66,7 @@ span{
     justify-content: center;
     text-align: center;
     padding: 30px;
-    background-color: #5B6236;
+    background-color: #732F2F;
     line-height: 100px;
     font-family: "Copperplate", "Times New Roman", serif;
 }
@@ -84,7 +84,7 @@ span{
     justify-content: center;
     text-align: center;
     padding: 30px;
-    background-color: #5B6236;
+    background-color: #3C0000;
     line-height: 100px;
     font-family: "Copperplate", "Times New Roman", serif;
 }
@@ -102,7 +102,7 @@ span{
     justify-content: center;
     text-align: center;
     padding: 30px;
-    background-color: #5B6236;
+    background-color: #744F28;
     line-height: 100px;
     font-family: "Copperplate", "Times New Roman", serif;
 }
@@ -135,18 +135,23 @@ h4{
     width: 33.33%;
     padding: auto;
   }
-  
-  
+
+.left,.right{
+    float: left;
+    width: 30%;
+    padding: auto;
+}
+.middle{
+    float: left;
+    width: 40%;
+    padding: auto;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
-
-.column2 {
-    float: left;
-    width: 50%;
-}
 
 @media screen and (max-width: 600px) {
     .column {
@@ -155,7 +160,7 @@ h4{
 }
 .white_block{
     width: 100%; 
-    height: 100px;
+    height: auto;
     border-style: solid;
     border-color: white;
     background-color: white;
@@ -168,13 +173,7 @@ a{
     padding: 10px;
 }
 
-#colorstrip_index{
-    width: 100%; 
-    height: auto;
-    border-style: solid;
-    border-color: #5B6236;
-    background-color: #5B6236;
-}
+
 
 
 
