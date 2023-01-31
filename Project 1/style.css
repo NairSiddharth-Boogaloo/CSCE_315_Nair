@@ -1,27 +1,56 @@
 title{
+    text-align: center;
+    font-weight: bold;
 
 }
 
 p{
-
+    text-align: left;
 }
 
 h1{
-
+    text-align: center;
+    font-weight: bold;
 }
 
 h2{
-
+    text-align: center;
+    font-weight: bold;
 }
 
 h3{
+    text-align: center;
+    font-weight: bold;
 
 }
 
 h4{
-
+    text-align:center;
+    font-weight: bold;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
 
 nav{
     display: flex;
@@ -29,7 +58,12 @@ nav{
     text-align: center;
 }
 
-#center-paragraph {
+a{
+    color: black;
+    font-weight:bold;
+}
+
+/* #center-paragraph {
     text-align: center;
     padding: 20px 300px;
 }
@@ -41,5 +75,5 @@ nav{
   width: 100%;
   max-width: 300px;
   max-height: 300px;
-}
+} */
 
