@@ -1,0 +1,45 @@
+title{
+
+}
+
+p{
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#center-paragraph {
+    text-align: center;
+    padding: 20px 300px;
+}
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
