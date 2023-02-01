@@ -72,6 +72,7 @@ span{
 }
 
 .h1_service{
+    /* Todo - Adjust saturation to make color slightly lighter for legibility concerns */
     text-align: center;
     font-weight: bold;
     background-color: #3C0000;
@@ -79,7 +80,7 @@ span{
 }
 
 .nav_service{
-    /* display: auto; */
+        /* Todo - Adjust saturation to make color slightly lighter for legibility concerns */
     height: 100px;
     justify-content: center;
     text-align: center;
